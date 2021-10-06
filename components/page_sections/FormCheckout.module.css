@@ -1,0 +1,98 @@
+/*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*/
+/*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*/
+/*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*//*CHECKOUT PAGE*/
+.forms .border{padding: 10px;}
+.forms .order_resume{padding:10px !important}
+
+.forms form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.forms .form {
+  background: #0e101c;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.forms form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ff8800;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.forms form label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  color: black;
+  font-size: 14px;
+  font-weight: 200;
+}
+.forms .error {
+  color: #ff8800;
+  font-size: 0.7em;
+}
+
+.forms .error::before {
+  display: inline;
+  content: "⚠ ";
+}
+.forms button[type="submit"],
+.forms input[type="submit"] {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.forms button[type="submit"]:hover,
+.forms input[type="submit"]:hover {
+  background: #bf1650;
+}
+
+.forms button[type="submit"]:active,
+.forms input[type="button"]:active,
+.forms input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+.forms input:disabled {
+  opacity: 0.4;
+}
+
+.forms input[type="button"]:hover {
+  transition: 0.3s all;
+}
+.forms button[type="submit"],
+.forms input[type="button"]
+
+ {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.forms hr {
+  margin-top: 30px;
+}
+
+
+.makeStyles-root-27{display: block;}

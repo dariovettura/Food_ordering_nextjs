@@ -1,0 +1,25 @@
+
+const CK = process.env.NEXT_PUBLIC_CK;
+const CS = process.env.NEXT_PUBLIC_CS;
+import axios from "axios";
+export default async function handler(req, res) {
+
+    const url3 =
+    "https://www.dariovettura.com/shop/wp-json/wc/v2/orders/?consumer_key=ck_9e313241dc45d1ebd828b5b77d50ef22932cc0a4&consumer_secret=cs_19fc547037ce9dac68efef81245be47c611b2f8a"
+    ;
+    if (req.method === 'POST') {
+        try { const datas =req?.body?.data ?? []
+            console.log(datas + 'ok')
+           // const result = await axios.post(url3, req?.body?.data ?? []);
+            //console.log(result.data);
+          
+          } catch (err) {
+            console.log('non si sa');
+           
+          }
+      
+    } else {
+     
+      res.status(405).end('Method Not Allowed');
+    }
+  }
