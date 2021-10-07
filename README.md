@@ -27,7 +27,7 @@ A React WooCommerce theme, built with Next JS, Webpack, Node, Tailwind(Autoprefi
 ## Important note
 
 The following features have been removed from this repository.
-Contact me on [my E-mail](d.vettura.wd@gmail.com) for more information,
+Contact me on 'd.vettura.wd@gmail.com' for more information,
 
 1. From page_section/Product.js
 * Add product in cart
