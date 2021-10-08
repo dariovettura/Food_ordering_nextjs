@@ -9,6 +9,9 @@ A React WooCommerce theme, built with Next JS, Webpack, Node, Tailwind(Autoprefi
 
 [Live Demo Site](https://food-ordering-nu.vercel.app/)
 
+## Product configurator Page Demo
+![](demo/espo_test_1.gif)
+
 ## Stripe Checkout 
 
 [Stripe Demo Video](https://www.youtube.com/watch?v=itFOcVPY5-8&t=75s)
